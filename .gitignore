@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# --- Project-specific ignores (conformal-rf-classifier) ---
+
+# Local virtual environment (created on your machine)
+.venv/
+
+# Model artifacts / trained objects (generated locally)
+artifacts/
+*.joblib
+*.pkl
+
+# Scratch work (if you keep a local sandbox folder)
+scratch/
+
+# Data folder (if you ever add one locally)
+data/
+
+# Caches
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
